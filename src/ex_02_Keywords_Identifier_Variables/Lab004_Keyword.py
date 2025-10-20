@@ -15,3 +15,4 @@ syntax
 variable name (identifier) = variable value (literal)
 """
 
+name = "Seraj"
