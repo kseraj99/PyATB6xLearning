@@ -9,3 +9,9 @@ Container - Store a value.
 
 """
 
+# Create a variable SYNTAX.
+"""
+syntax
+variable name (identifier) = variable value (literal)
+"""
+
