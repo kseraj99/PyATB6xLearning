@@ -1,2 +1,6 @@
+"""
+Python first program
+"""
 
-print("Hello Seraj Khan")
+print("Hello, seraj!")
+
