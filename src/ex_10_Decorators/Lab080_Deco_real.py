@@ -1,4 +1,4 @@
-def before_after_ui_test(func):
+def before_after_ui_testing(func):
 
     def wrapper():
         print("Before running code!")
@@ -8,6 +8,6 @@ def before_after_ui_test(func):
     return wrapper()
 
 
-@before_after_ui_test
-def test_ui():
+@before_after_ui_testing
+def ui_testing():
     print("Hi,I am a UI Tester!")
