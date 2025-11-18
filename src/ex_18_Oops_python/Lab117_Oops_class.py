@@ -5,9 +5,12 @@ Class-Blueprint
 - Behavior | Methods(functions) |  Data members  | Member functions.
 
 very important-every class has attributes and behaviour
-
 """
-
+"""
+Very Important to remember.
+Creating an object, when you create an object of a class the 
+constructor will call automatically
+"""
 class Person:
     # Constructor (used to initialize object attributes)
     def __init__(self, name=None, id=None, age=None, email=None, height=None, gender=None, phone_no=None, address=None):
