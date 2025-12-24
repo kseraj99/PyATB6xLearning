@@ -1,13 +1,13 @@
 
 # 📘 Python & Selenium Automation Learning Repository
 
-## 👤 Author
+👤 Author
 
-**Seraj**
+Seraj
 
 ---
 
-## 📌 Project Overview
+# 📌 Project Overview
 
 This repository contains **Python fundamentals, practice programs, and Selenium automation examples** created as part of my learning journey in **Python for Test Automation (SDET)**.
 
@@ -20,9 +20,9 @@ The goal of this repository is to:
 
 ---
 
-## 🧠 What You Will Learn
+# 🧠 What You Will Learn
 
-### 🔹 Python Basics
+# 🔹 Python Basics
 
 * Variables & Data Types
 * Literals
@@ -33,7 +33,7 @@ The goal of this repository is to:
 * Decorators
 * Input/Output handling
 
-### 🔹 Problem Solving
+# 🔹 Problem Solving
 
 * Fibonacci Series
 * Factorial Program
@@ -42,7 +42,7 @@ The goal of this repository is to:
 * Triangle Classification
 * Mathematical Programs
 
-### 🔹 Automation Foundations
+# 🔹 Automation Foundations
 
 * Selenium WebDriver
 * PyTest Framework
@@ -52,7 +52,7 @@ The goal of this repository is to:
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```
 📦 python-selenium-learning
@@ -95,7 +95,7 @@ The goal of this repository is to:
 
 ---
 
-## ⚙️ Prerequisites
+# ⚙️ Prerequisites
 
 Make sure you have the following installed:
 
@@ -107,22 +107,22 @@ Make sure you have the following installed:
 
 ---
 
-## 🔧 Installation & Setup
+# 🔧 Installation & Setup
 
-### 1️⃣ Clone the Repository
+# 1️⃣ Clone the Repository
 
 ```bash
 git clone https://github.com/<your-username>/python-selenium-learning.git
 cd python-selenium-learning
 ```
 
-### 2️⃣ Create Virtual Environment
+# 2️⃣ Create Virtual Environment
 
 ```bash
 python -m venv .venv
 ```
 
-### 3️⃣ Activate Virtual Environment
+# 3️⃣ Activate Virtual Environment
 
 **Windows**
 
@@ -136,7 +136,7 @@ python -m venv .venv
 source .venv/bin/activate
 ```
 
-### 4️⃣ Install Dependencies
+# 4️⃣ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -144,7 +144,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Running Python Programs
+# ▶️ Running Python Programs
 
 ```bash
 python src/ex_01_Python_Basics/variables.py
@@ -152,7 +152,7 @@ python src/ex_01_Python_Basics/variables.py
 
 ---
 
-## 🧪 Running Selenium Tests with PyTest
+# 🧪 Running Selenium Tests with PyTest
 
 ```bash
 pytest src/ex_04_Selenium_Basics/test_selenium_01.py
@@ -160,15 +160,15 @@ pytest src/ex_04_Selenium_Basics/test_selenium_01.py
 
 ---
 
-## 📊 Generating Allure Report
+# 📊 Generating Allure Report
 
-### 1️⃣ Run Tests with Allure Results
+# 1️⃣ Run Tests with Allure Results
 
 ```bash
 pytest src/ex_04_Selenium_Basics --alluredir=reports/allure-results
 ```
 
-### 2️⃣ Open Allure Report
+# 2️⃣ Open Allure Report
 
 ```bash
 allure serve reports/allure-results
@@ -176,7 +176,7 @@ allure serve reports/allure-results
 
 ---
 
-## 🧾 Sample Test Code
+# 🧾 Sample Test Code
 
 ```python
 @allure.title("Print the title of the page")
@@ -189,7 +189,7 @@ def test_selenium():
 
 ---
 
-## 📝 Coding Standards Followed
+# 📝 Coding Standards Followed
 
 * Snake_case naming
 * Modular structure
@@ -199,7 +199,7 @@ def test_selenium():
 
 ---
 
-## 🚀 Future Enhancements
+# 🚀 Future Enhancements
 
 * Page Object Model (POM)
 * Data-driven testing
@@ -209,7 +209,7 @@ def test_selenium():
 
 ---
 
-## 📬 Feedback & Review
+# 📬 Feedback & Review
 
 This repository is created for **learning and review purposes**.
 Suggestions and improvements are always welcome.
